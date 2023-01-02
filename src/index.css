@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik'); 
+@import url('https://fonts.googleapis.com/css2?family=Moleng');
+body { 
+    box-sizing: border-box;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.postimg.cc/3xpfQV5s/noise-bg.png);
+    background-color: #155;
+  }
+#title{
+    grid-area: title;
+    color: #eee;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 5px 5px #333;
+  }
+input{
+    min-height: 60vh;
+    background-color: aqua;
+   }
+
+#editor {
+  grid-area: editor;
+  background: #eee;
+  box-shadow: 5px 5px #448484;
+}
+
+#preview {
+  grid-area: preview;
+  background: #333;
+  color: white;
+  font-family: 'Molengo', sans-serif;
+  font-size: 1.2rem;
+  box-shadow: 5px 5px #448484;
+  overflow-y: auto;
+}
+.preview{
+    background-color: white;
+    min-height: 60vh;
+}
+
+blockquote {
+  margin-left: 2rem;
+  padding-left: 0.6rem;
+  border-left: 0.4rem solid grey;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
