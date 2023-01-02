@@ -1,2 +1,2 @@
 # Markdown Previewer
-Project made for Front End Libraries certification programm on FreeCodeCamp
+Project made for Front End Libraries certification program on FreeCodeCamp
